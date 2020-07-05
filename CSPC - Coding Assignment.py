@@ -131,29 +131,3 @@ print("In order to create new sets and perform operations, do the following. \n 
 print("The universal set is-", U, "and it's bitstring representation is-", UniversalSet(U).bits())
 
 
-A = set_input({'1','2','3','4'})
-B = set_input({'2','3'})
-
-
-set_union(A,B)
-
-
-set_as_bitstring(set_union(A,B))
-
-set_intersect(A,B)
-
-
-set_as_bitstring(set_intersect(A,B))
-
-set_complement(A)
-
-
-set_as_bitstring(set_complement(A))
-
-set_diff(A,B)
-
-set_as_bitstring(set_diff(A,B))
-
-set_symdif(A,B)
-
-set_as_bitstring(set_symdif(A,B))
