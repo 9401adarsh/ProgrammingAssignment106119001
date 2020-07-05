@@ -1,0 +1,62 @@
+IPython 7.13.0 -- An enhanced Interactive Python.
+
+runfile('C:/Users/Adarsh/untitled0.py', wdir='C:/Users/Adarsh')
+
+WARNING: This is not valid Python code. If you want to use IPython magics, flexible indentation, and prompt removal, please save this file with the .ipy extension. This will be an error in a future version of Spyder.
+
+Requirement already satisfied: bitsets in f:\anaconda\lib\site-packages (0.7.16)
+Enter Sets sequentially as a string with  to separate elements- 
+
+Enter Universal Set as string- a b c d e f g h i j k l m n o p q r s t u v w x y z
+In order to create new sets and perform operations, do the following. 
+ Ex: declare A = set_input(x) where x is a set containing the elements
+ For union - set_union
+ intersection- set_intersect 
+ complement - set_complement 
+ set difference - set_diff 
+ symmetric difference - set_symdif 
+ set as bitstring - set_as_bitstring
+The universal set is- ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z') and it's bitstring representation is- 11111111111111111111111111
+
+A = set_input({'a','b','x','y','z'})
+
+B = set_input({'c','v','j','r','s'})
+
+set_union(A,B)
+Out[4]: {'a', 'b', 'c', 'j', 'r', 's', 'v', 'x', 'y', 'z'}
+
+set_intersect(A,B)
+Out[5]: []
+
+set_complement(A)
+Out[6]: 
+{'c',
+ 'd',
+ 'e',
+ 'f',
+ 'g',
+ 'h',
+ 'i',
+ 'j',
+ 'k',
+ 'l',
+ 'm',
+ 'n',
+ 'o',
+ 'p',
+ 'q',
+ 'r',
+ 's',
+ 't',
+ 'u',
+ 'v',
+ 'w'}
+
+set_diff(A,B)
+Out[7]: {'a', 'b', 'x', 'y', 'z'}
+
+set_symdif(A,B)
+Out[8]: {'a', 'b', 'c', 'j', 'r', 's', 'v', 'x', 'y', 'z'}
+
+set_as_bitstring(A)
+Out[9]: '11000000000000000000000111'
