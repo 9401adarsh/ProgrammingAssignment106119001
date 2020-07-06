@@ -11,4 +11,7 @@ Problem Statement : Write a program to show how basic set operations such as uni
 
 ---
 
-View the collab file for the program.
+***For accessing raw code : View CSPC-Programming Assignment.py and run it on local IDE.
+To know how the program was implemented : Kindly open the Programming_Assignment_for_CSPC_106119001.ipynb file.
+For accessing and running code on the browser : Kindly open the Programming_Assignment_for_CSPC_106119001.ipynb file and click on the Open in Colab link. A Jupyter notebook will open wherin you will be able to execute the kernels and view results.
+For Sample Data Output : Refer SampleOutput-1.txt***
