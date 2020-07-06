@@ -36,7 +36,7 @@
 
 
 
-!pip install bitsets
+pip install bitsets
 # Program to implement set operations on sets represented by bit-strings
 
 # Importing bitset to create universal set class and implement bitset representation
