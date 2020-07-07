@@ -1,7 +1,15 @@
 # ProgrammingAssignment106119001
-Question Assigned : Q1. a)
 
-Problem Statement : Write a program to show how basic set operations such as union and intersection can be implemented when set is represented as bit-string.
+
+**Question Assigned: Q1. b)
+
+Problem Statement: Show how bitwise operations can be used to find these combinations of A = {a,b,c,d,e},
+B = {b,c,d,g,p,t,v}, C = {c,e,i,o,u,x,y,z} & D = {d,e,h,i,n,o,t,u,x,y}
+•	A U B
+•	A ∩ B
+•	(A U D) ∩ (BUC) 
+•	A U B U C U D 
+
 
 **Programming Language Used** : ***Python Version 3.8***
 
